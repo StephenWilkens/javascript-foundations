@@ -57,7 +57,7 @@ describe('Dragon', function() {
     assert.equal(dragon.hungry, true);
 
     dragon.eat();
-
+    
     assert.equal(dragon.hungry, false);
   });
 });
